@@ -1,0 +1,127 @@
+{
+  // Editor
+  "editor.fontSize": 18,
+  "editor.fontWeight": "500",
+  "editor.fontFamily": "SourceHanCodeJP-Regular, Monaco",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  },
+  "editor.renderControlCharacters": true, // 制御文字を表示する
+  "editor.renderWhitespace": "boundary",  // 空白文字を表示する
+  "editor.renderLineHighlight": "all",    // カーソル行を強調する
+  "editor.cursorBlinking": "phase",       // カーソルを点滅させる
+  "editor.minimap.maxColumn": 40,         // ミニマップの幅を40文字分に設定する
+  "editor.minimap.showSlider": "always",  // ミニマップ上にスライダーを常に表示するようにする
+
+  // Terminal
+  "terminal.integrated.fontFamily": "Ricty Nerd Font",
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontSize": 16,
+
+  // Files
+  // l.19とl.20合わせて『ファイルの最後に必ず1行だけ空行を残す』になる
+  "files.insertFinalNewline": true,      // 保存時にファイルの最後に空行を挿入する
+  "files.trimFinalNewlines": true,       // 保存時にファイルの最後に存在する空行を削除する
+  "files.trimTrailingWhitespace": true,  // 保存時に行の終端に存在する空白文字を削除する
+
+  // Workbench
+  "workbench.startupEditor": "newUntitledFile",    // 起動時に「ようこそ」画面表示しない
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+
+  // Window
+  "window.zoomLevel": -1,
+
+  // Explorer
+  "explorer.confirmDragAndDrop": true, // ドラッグ&ドロップでファイル移動時に確認ダイアログ表示する
+  "explorer.confirmDelete": true,      // ファイル削除時に確認ダイアログ表示する
+
+  // JavaScript & TypeScript
+  "[javascript]": {
+    "editor.tabSize": 2,
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+  },
+
+  // Golang
+  "[go]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false
+  },
+  "go.formatTool": "goimports",
+  "go.formatFlags": ["-w"],
+  "go.lintTool": "golint",
+  "go.lintOnSave": "package",
+  "go.vetOnSave": "package",
+  "go.buildOnSave": "package",
+  "go.testOnSave": false,
+  "go.gocodeAutoBuild": true,
+  "go.installDependenciesWhenBuilding": true,
+
+  // Ruby, Rubocop
+  "ruby.format": "rubocop",
+  "ruby.intellisense": "rubyLocate",
+  "ruby.lint": { "rubocop": true },
+  "ruby.useLanguageServer": true,
+  "ruby.rubocop.executePath": "/Users/yasuo/.rbenv/shims/",
+
+  // Markdown
+  "[markdown]": {
+    "editor.wordWrap": "off",
+    "files.trimTrailingWhitespace": false,  // 行末の空白に意味があるから
+  },
+
+  // Python
+  "[python]": {
+    "editor.tabSize": 4
+  },
+
+  // Vim
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],   // jj goes from insert mode to normal mode.
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.hlsearch": true,
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+  "vim.statusBarColors.insert": "#BF616A",
+  "vim.statusBarColors.visual": "#B48EAD",
+  "vim.statusBarColors.visualline": "#B48EAD",
+  "vim.statusBarColors.visualblock": "#A3BE8C",
+  "vim.statusBarColors.replace": "#D08770",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#B48EAD",
+    "statusBar.noFolderBackground": "#B48EAD",
+    "statusBar.debuggingBackground": "#B48EAD",
+    "statusBar.foreground": "#434C5E"
+  },
+
+  // liveserver
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // Git
+  "git.autofetch": true,
+  "git.autofetchPeriod": 300,   // 5分毎にgit fetchする
+
+  // Tabnine
+  "tabnine.experimentalAutoImports": true,    // Module Inportの時にTabnineによって推薦させる
+
+  // Extensions
+  "extensions.ignoreRecommendations": false,
+}

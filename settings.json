@@ -19,7 +19,7 @@
   "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
 
   // Files
   // l.19とl.20合わせて『ファイルの最後に必ず1行だけ空行を残す』になる
@@ -34,7 +34,7 @@
   "workbench.preferredDarkColorTheme": "GitHub Dark",
 
   // Window
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0,
 
   // Explorer
   "explorer.confirmDragAndDrop": true, // ドラッグ&ドロップでファイル移動時に確認ダイアログ表示する

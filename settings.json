@@ -1,6 +1,6 @@
 {
   // Editor
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "editor.fontWeight": "500",
   "editor.fontFamily": "SourceHanCodeJP-Regular, Monaco",
   "editor.tabSize": 2,
@@ -97,20 +97,21 @@
       "after": ["<Esc>"]
     }
   ],
+  "vim.useSystemClipboard":true,    // システムのClipboardにコピー
+  "vim.cmdLineInitialColon": true,  // 検索にコロンを入れる
   "vim.hlsearch": true,
   "vim.statusBarColorControl": true,
-  "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
-  "vim.statusBarColors.insert": "#BF616A",
-  "vim.statusBarColors.visual": "#B48EAD",
-  "vim.statusBarColors.visualline": "#B48EAD",
-  "vim.statusBarColors.visualblock": "#A3BE8C",
-  "vim.statusBarColors.replace": "#D08770",
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#B48EAD",
-    "statusBar.noFolderBackground": "#B48EAD",
-    "statusBar.debuggingBackground": "#B48EAD",
-    "statusBar.foreground": "#434C5E"
-  },
+  "vim.statusBarColors.normal": ["#161821", "#818596"],
+  "vim.statusBarColors.insert": ["#19d3da", "#161821"],
+  "vim.statusBarColors.visual": ["#ff577f", "#161821"],
+  "vim.statusBarColors.visualline": ["#ff577f", "#161821"],
+  "vim.statusBarColors.visualblock": ["#ff577f", "#161821"],
+  "vim.statusBarColors.replace": ["#E2A478", "#161821"],
+  "vim.statusBarColors.commandlineinprogress": ["#ffe227", "#161821"],
+  "vim.statusBarColors.searchinprogressmode": ["#ffe227", "#161821"],
+  "vim.statusBarColors.easymotionmode": ["#ffe227", "#161821"],
+  "vim.statusBarColors.easymotioninputmode": ["#ffe227", "#161821"],
+  "vim.statusBarColors.surroundinputmode": ["#ffe227", "#161821"],
 
   // liveserver
   "liveServer.settings.donotShowInfoMsg": true,

@@ -1,8 +1,8 @@
 {
   // Editor
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "editor.fontWeight": "500",
-  "editor.fontFamily": "SourceHanCodeJP-Regular, Monaco",
+  "editor.fontFamily": "Ricty Nerd Font",
   "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,

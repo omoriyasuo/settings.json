@@ -7,6 +7,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
   },
+  "editor.formatOnSave": true,
   "editor.renderControlCharacters": true, // 制御文字を表示する
   "editor.renderWhitespace": "boundary",  // 空白文字を表示する
   "editor.renderLineHighlight": "all",    // カーソル行を強調する

@@ -42,7 +42,6 @@ $ ./install.sh
 - [Ruby](https://github.com/rubyide/vscode-ruby)
 - [Live Sass Compiler](https://github.com/ritwickdey/vscode-live-sass-compiler)
 - [Live Server](https://github.com/ritwickdey/vscode-live-server)
-- [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 - [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)
 - [Indenticator](https://github.com/SirTori/indenticator)
 - [Sass Indented](https://github.com/TheRealSyler/vscode-sass-indented)

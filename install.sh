@@ -34,7 +34,6 @@ exts=(
     "oderwat.indent-rainbow"
     "PKief.material-icon-theme"
     "rebornix.ruby"
-    "ritwickdey.live-sass"
     "ritwickdey.LiveServer"
     "shardulm94.trailing-spaces"
     "shd101wyy.markdown-preview-enhanced"

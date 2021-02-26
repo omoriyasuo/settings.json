@@ -42,7 +42,6 @@ $ ./install.sh
 - [indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow)
 - [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme)
 - [Ruby](https://github.com/rubyide/vscode-ruby)
-- [Live Sass Compiler](https://github.com/ritwickdey/vscode-live-sass-compiler)
 - [Live Server](https://github.com/ritwickdey/vscode-live-server)
 - [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)
 - [Indenticator](https://github.com/SirTori/indenticator)
